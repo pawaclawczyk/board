@@ -1,0 +1,28 @@
+{
+    "name": "pwc/board",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Wacławczyk",
+            "email": "p.a.waclawczyk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Board\\": "src/Board/",
+            "Utils\\": "src/Utils/",
+            "Infrastructure\\": "src/Infrastructure/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Features\\": "tests/Features/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.1",
+        "beberlei/assert": "^2.5",
+        "fabpot/php-cs-fixer": "^1.11"
+    }
+}

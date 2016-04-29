@@ -1,0 +1,7 @@
+default:
+    formatters:
+        pretty: true
+    suites:
+        default:
+          contexts:
+              - Features\DefaultContext
